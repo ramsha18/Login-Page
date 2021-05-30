@@ -6,29 +6,6 @@ void main() {
   runApp(MyApp());
 }
 
-// class MyApp extends StatelessWidget{
-//   @override
-//   Widget build(BuildContext context){
-//     return MaterialApp(
-//        debugShowCheckedModeBanner: false,
-//       home: Scaffold(
-//         backgroundColor: Color.fromRGBO(0, 171, 169,1) , 
-//         body: Row(
-//           children: [ 
-//             SizedBox(height: 70),
-//           Text("USER LOGIN", style: TextStyle(color: Colors.white, fontSize: 25)),
-//           Column(children: [
-//             Icon(Icons.account_circle_outlined,
-//               //Icons.login_rounded,
-//             ),
-//           ],)
-//         ],),
-//       ),
-//     );
-//   }
-// }
-
-
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context){
